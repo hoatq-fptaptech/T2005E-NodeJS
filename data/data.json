@@ -1,0 +1,62 @@
+[
+  {
+    "name":"Điện thoại",
+    "image": "imgs/products/dien-thoai.png",
+    "link": "dien-thoai.html"
+  },
+  {
+    "name":"Laptop",
+    "image": "imgs/products/laptop.png",
+    "link": "laptop.html"
+  },
+  {
+    "name":"Apple",
+    "image": "imgs/products/apple.png",
+    "link": "apple.html"
+  },
+  {
+    "name":"Máy tính bảng",
+    "image": "imgs/products/tablet.png",
+    "link": "tablet.html"
+  },
+  {
+    "name":"Đồng hồ thông minh",
+    "image": "imgs/products/smart-watch.png",
+    "link": "smart-watch.html"
+  },
+  {
+    "name":"Ốp lưng điện thoại",
+    "image": "imgs/products/op-lung.png",
+    "link": "op-lung.html"
+  },
+  {
+    "name":"Tai nghe",
+    "image": "imgs/products/tai-nghe.png",
+    "link": "tai-nghe.html"
+  },
+  {
+    "name":"Thẻ nhớ",
+    "image": "imgs/products/the-nho.png",
+    "link": "the-nho.html"
+  },
+  {
+    "name":"Loa nghe nhạc",
+    "image": "imgs/products/loa-nghe-nhac.png",
+    "link": "loa-nghe-nhac.html"
+  },
+  {
+    "name":"Sạc cáp",
+    "image": "imgs/products/cap-sac.png",
+    "link": "sac-cap.html"
+  },
+  {
+    "name":"Máy tính để bàn",
+    "image": "imgs/products/may-tinh-de-ban.png",
+    "link": "may-tinh-de-ban.html"
+  },
+  {
+    "name":"Máy in",
+    "image": "imgs/products/may-in.png",
+    "link": "may-in.html"
+  }
+]
