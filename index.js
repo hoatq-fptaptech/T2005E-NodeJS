@@ -34,3 +34,27 @@ app.get("/danh-muc",function (req,res) {
         cats:cats
     });
 });
+
+app.get("/chi-tiet/:id",function (req,res) {
+    let ID = req.params.id;
+    let cats = fs.readFileSync("data/data.json","UTF-8");
+    cats = JSON.parse(cats);
+    let count = 0;
+    cats.map(e=>{
+        count++;
+        if(e.id == ID){
+            res.render("chitiet",{
+                cat: e
+            });
+            count=0;
+        }
+    })
+    if(count>= cats.length){
+        res.send("Khong tim thay");
+    }
+})
+
+app.get("/trang-gi-do",function (req,res) {
+    let obj = {name:"quang Hoa"};
+    res.send(obj);
+});
